@@ -1,0 +1,16 @@
+.tree-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .children-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .tree-node-wrap{
+    cursor: pointer;
+  }
+  .tree-node-light{
+    background-color: red
+  }
+}
